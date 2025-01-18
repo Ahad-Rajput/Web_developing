@@ -37,6 +37,9 @@ body {
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px); /* Increased spacing */
 }
+.box:hover {
+    animation-play-state: paused; /* Pauses the animation */
+}
 
 .box span img {
     position: absolute;
